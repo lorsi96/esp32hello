@@ -1,0 +1,1 @@
+docker run --rm --user $(id -u):$(id -g) -v $(pwd):/app -it pymaketool/esp32 /bin/bash 
